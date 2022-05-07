@@ -1,0 +1,11 @@
+{{#if error}}
+    <div class="alert alert-success" role="alert">
+        <p class="mb-0">{{error}}</p>
+    </div>
+{{/if}}
+
+{{#each errors}}
+    <div class="alert alert-success" role="alert">
+        <p class="mb-0">{{text}}</p>
+    </div>
+{{/each}}
